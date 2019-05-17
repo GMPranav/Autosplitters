@@ -24,7 +24,8 @@ state("POP2"){
 }
 
 start{
-	if (current.map == 1292342859 && old.cutscene == 1 && current.cutscene == 2)	//start the timer when a new game is started (after the opening cutscene has ended)
+	//start the timer when a new game is started (after the opening cutscene has ended)
+	if (current.map == 1292342859 && old.cutscene == 1 && current.cutscene == 2)
 			return true;
 }
 
@@ -46,7 +47,7 @@ split{
 			switch (timer.CurrentSplitIndex)
 			{
 				case 0:
-					if (current.map == 67109218 && current.bossHealth == 0 && old.cutscene == 0 && current.cutscene == 1)		//boat
+					if (current.map == 67109218 && current.bossHealth == 0 && old.cutscene == 0 && current.cutscene == 1)						//boat
 						return true;
 					break;
 				case 1:
