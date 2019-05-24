@@ -6,6 +6,7 @@ Features:
 - Custom settings allow you to choose the splits you want
 - Supports all categories
 
+
 **How to use**
 
 In the settings window check the splits you want for the category you're going to run. You don't have to uncheck the parent settings of other categories, they only serve a cataloging purpose.
