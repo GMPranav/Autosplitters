@@ -18,7 +18,7 @@ In the settings window check the splits you want for the category you're going t
 - True Ending (No Major Glitches)
 
 You can ensure your category/subcategory name is correct if you choose them from the dropdown menus in the split settings:  
-<img src="https://i.imgur.com/xPLQmrh.png" width=70%/>
+<img src="https://i.imgur.com/xPLQmrh.png" alt="split settings window" width=70%/>
 
 Your split names don't have to match the ones from the settings, but they must be the same amount and go in the same order as in the settings.  
 Take note that the script only checks the current split, if you somehow skipped one then you have to skip a split manually in livesplit.
