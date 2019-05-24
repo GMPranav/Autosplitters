@@ -1,4 +1,5 @@
-# Prince of Persia: Warrior Within autosplitter  (<img src="https://cdn.frankerfacez.com/emoticon/210748/2" alt="Pog" title="Pog" width="30" align="center"/> edition)
+<!---# Prince of Persia: Warrior Within autosplitter  (<img src="https://cdn.frankerfacez.com/emoticon/210748/2" alt="Pog" title="Pog" width="30" align="center"/> edition)--->
+# Prince of Persia: Warrior Within autosplitter  (Pog edition)
 ## Features
 - Auto starting
 - Auto splitting
