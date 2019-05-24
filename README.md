@@ -1,5 +1,5 @@
 # Prince of Persia: Warrior Within (Pog edition)
-Features:
+## Features
 - Auto starting
 - Auto splitting
 - Auto resetting when you start a new game (your gold times will be updated without a confirmation window)
