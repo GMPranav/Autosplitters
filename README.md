@@ -1,4 +1,4 @@
-# Prince of Persia: Warrior Within (Pog edition)
+# Prince of Persia: Warrior Within autosplitter (Pog edition)
 ## Features
 - Auto starting
 - Auto splitting
