@@ -1,4 +1,4 @@
-# Prince of Persia: Warrior Within autosplitter (Pog edition)
+# Prince of Persia: Warrior Within autosplitter  (![Pog](https://cdn.frankerfacez.com/emoticon/210748/2 "Pog") edition)
 ## Features
 - Auto starting
 - Auto splitting
