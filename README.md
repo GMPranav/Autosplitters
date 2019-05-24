@@ -4,7 +4,7 @@
 - Auto starting
 - Auto splitting
 - Auto resetting when you start a new game (your gold times will be updated without a confirmation window)
-- Custom settings allow you to choose the splits you want
+- Custom settings that allow you to choose the splits you want
 - Supports all categories
  
 ## How to use
