@@ -15,7 +15,8 @@ In the settings window check the splits you want for the category you're going t
 - Any% (No Major Glitches)
 - True Ending (Normal)
 - True Ending (Zipless)
-- True Ending (No Major Glitches)  
+- True Ending (No Major Glitches)
+
 You can ensure your category/subcategory name is correct if you choose them from the dropdown menus in the split settings:
 <img src="https://i.imgur.com/xPLQmrh.png" width=70%/>
 
