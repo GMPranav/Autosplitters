@@ -7,6 +7,7 @@ Features:
 - Supports all categories
 
 **How to use**
+
 In the settings window check the splits you want for the category you're going to run. You don't have to uncheck the parent settings of other categories, they only serve a cataloging purpose.
 Your split names don't have to match the ones from the settings, but they must be the same amount and go in the same order as in the settings.
 Take note that the script only checks the current split, if you somehow skipped one then you have to skip a split manually in livesplit.
