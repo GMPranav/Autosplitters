@@ -117,7 +117,7 @@ startup{
 	AddNmgSettings(false, true, "(6) Central hall LU", "Split when you acquire the life upgrade in central hall", true);
 	AddNmgSettings(true, false, "Lion sword", "Split on the cutscene where you get the lion sword (central hall)", false);
 	AddNmgSettings(true, true, "Mechanical tower", "Split when you clilmb up into the mechanical tower", false);
-	AddNmgSettings(false, false, "Mechanical tower (elevator cutscene)", "Split when you jump down on the elevator in mechanical tower", false);
+	AddNmgSettings(false, false, "Mechanical tower v2 (elevator cutscene)", "Split on the cutscene where you jump down on the elevator at the start of mech tower", false);
 	AddNmgSettings(true, true, "Ravages of time", "Split when you go through the time portal in mechanical pit", false);
 	AddNmgSettings(true, true, "Activation room in ruin", "Split when you come to the mech tower activation room in the present", false);
 	AddNmgSettings(true, false, "Activation room restored", "Split when you come to the mech tower activation room in the past", false);
@@ -713,6 +713,6 @@ update{
 }
 
 split{
+	//print("hello");
 	return vars.splitList[timer.CurrentSplitIndex](old, current);
-	//print(timer.Run.CategoryName.ToString());
 }
