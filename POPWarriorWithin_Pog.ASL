@@ -421,7 +421,7 @@ update{
 			
 			case "Any% (No Major Glitches)":																						//Any% (No Major Glitches) splits
 			case "True Ending (No Major Glitches)":																					//True Ending (No Major Glitches) splits
-				if (timer.Run.CategoryName == "Any%")
+				if (timer.Run.GetExtendedCategoryName() == "Any% (No Major Glitches)")
 					category = "AnyNmg";
 				else category = "TeNmg";
 				if (settings[category + i]) {
