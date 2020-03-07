@@ -24,8 +24,8 @@ state("POP2"){
 }
 
 startup{
-	settings.Add("Any", true, "Any% (Normal) and Any% (Zipless) splits");
-	settings.Add("TeNormal", true, "True Ending (Normal) splits");
+	settings.Add("Any", true, "Any% (Standard) and Any% (Zipless) splits");
+	settings.Add("TeStandard", true, "True Ending (Standard) splits");
 	settings.Add("TeZipless", true, "True Ending (Zipless) splits");
 	settings.Add("AnyNmg", true, "Any% (No Major Glitches) splits");
 	settings.Add("TeNmg", true, "True Ending (No Major Glitches) splits");
@@ -49,7 +49,7 @@ startup{
 	AddSetting(true, "Second portal", "Split when you go through the time portal in the throne room");
 	AddSetting(true, "Kaileena", "Split when you kill Kaileena in sacred caves");
 
-	currentCategory = "TeNormal";
+	currentCategory = "TeStandard";
 	i = 0;
 	AddSetting(true, "Boat", "Split when the boat ending cutscene starts playing");
 	AddSetting(true, "Raven man", "Split on the cutscene where you're introduced to a raven master");
@@ -166,8 +166,8 @@ update{
 		vars.splitList = new List<Func<dynamic, dynamic, bool>>{};																	//this list is gonna hold all the split functions needed for the run
 		switch(timer.Run.GetExtendedCategoryName())
 		{
-			case "Any% (Normal)":																									//Any% (Normal) splits
-			case "Any% (Zipless)":																									//Any% (Zipless) splits, same as Any% (Normal) splits
+			case "Any% (Standard)":																									//Any% (Standard) splits
+			case "Any% (Zipless)":																									//Any% (Zipless) splits, same as Any% (Standard) splits
 				category = "Any";
 				if (settings[category + i]) {
 					Func<dynamic, dynamic, bool> split = (Old, Current) =>
@@ -225,8 +225,8 @@ update{
 				break;
 			
 
-			case "True Ending (Normal)":																							//True Ending (Normal) splits
-				category = "TeNormal";
+			case "True Ending (Standard)":																							//True Ending (Standard) splits
+				category = "TeStandard";
 				if (settings[category + i]) {
 					Func<dynamic, dynamic, bool> split = (Old, Current) =>
 						Current.map == 67109218 && Current.bossHealth == 0 && Old.cutscene == 0 && Current.cutscene == 1;			//boat
