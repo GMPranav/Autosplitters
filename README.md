@@ -9,19 +9,19 @@ Livesplit autosplitter script for Prince of Persia: Warrior Within. Pog edition.
  
 ## How to use
 
-In the settings window check the splits you want for the category you're going to run. You don't have to uncheck the parent settings of other categories, they only serve a cataloging purpose, the category is detected automatically. But it has to be exactly one of the following:
+First of all, activate the autosplitter by clicking "Activate".
+In the run category field type in the name of the category and subcategory you're running. It has to be exactly on of the following:
 - Any% (Standard)
 - Any% (Zipless)
 - Any% (No Major Glitches)
 - True Ending (Standard)
 - True Ending (Zipless)
 - True Ending (No Major Glitches)
+<img src="https://i.imgur.com/Jx0HJqQ.png" alt="split settings window" width=70%/>
 
-You can ensure your category/subcategory name is correct if you choose them from the dropdown menus in the split settings:  
-<img src="https://i.imgur.com/xPLQmrh.png" alt="split settings window" width=70%/>
-
-Sometimes due to an error on LiveSplit end the subcategory menu doesn't work, in that case just put the whole category+subcategory name into the "Run category" field:
-<img src="https://i.imgur.com/aZwwRKd.png" alt="split settings window" width=70%/>
+In the settings window check the splits you want for the category you're going to run. It doesn't matter if other categories settings are checked, only the relevant category is taken into account.
+<img src="https://i.imgur.com/2NJ1g3N.png" alt="split settings window" width=70%/>
+<img src="https://i.imgur.com/OPNWPyh.png" alt="split settings window" width=70%/>
 
 Your split names don't have to match the ones from the settings, but they must be the same amount and go in the same order as in the settings.  
 Take note that the script only checks the current split, if you somehow skipped one then you have to skip a split manually in livesplit.
