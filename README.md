@@ -20,7 +20,7 @@ In the run category field type in the name of the category and subcategory you'r
 <img src="https://i.imgur.com/Jx0HJqQ.png" alt="split settings window" width=50%/>
 
 In the settings window check the splits you want for the category you're going to run. It doesn't matter if other categories settings are checked, only the relevant category is taken into account.
-<img src="https://i.imgur.com/2NJ1g3N.png" alt="split settings window" width=50%/>
+<img src="https://i.imgur.com/2NJ1g3N.png" alt="split settings window"/>
 <img src="https://i.imgur.com/OPNWPyh.png" alt="split settings window" width=50%/>
 
 Your split names don't have to match the ones from the settings, but they must be the same amount and go in the same order as in the settings.  
